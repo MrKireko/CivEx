@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url("Open Sans.ttf") format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("bg.png");
+	font-family: 'Open Sans';
+}
+
+#header {
+	font-size: 16px;
+	color: #bbb;
+	width: 960px;
+	display: inline-block;
+	text-align: left;
+	margin-top: 100px;
+}
+
+#by:hover {
+	color: #ccc;
+}
+
+#nav {
+	float: right;
+}
+
+#nav > a {
+	text-decoration: none;
+	color: #bbb;
+}
+
+#wrapper {
+	text-align: center;
+}
+
+#cont {
+	background-color: #333;
+	width: 960px;
+	height: 300px;
+	margin-top: 13px;
+	display: inline-block;
+	text-align: justify;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#txt {
+	color: #bbb;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: -1px;
+	display: inline-block;
+	width: 450px;
+}
+
+#title {
+	margin-top: 45px;
+	margin-left: 30px;
+}
+
+#text {
+	padding: 20px 0px 20px 0px;
+	display: inline-block;
+	margin-left: 30px;
+	width: 390px;
+	color: #777;
+	font-size: 13px;
+	line-height: normal;
+	text-align: left;
+	letter-spacing: 0px;
+	font-weight: 300;
+}
+
+#sublink {
+	padding-left: 30px;
+	color: #bbb;
+	text-decoration: none;
+	font-size: 13px;
+	letter-spacing: 0px;
+}
+
+#sublink:hover {
+	color: #ddd;
+}
+
+#pic1 {
+	float: right;
+	display: inline;
+}
