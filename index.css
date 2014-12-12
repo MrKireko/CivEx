@@ -145,3 +145,11 @@ b {
 .footer:hover {
 	color: #ddd !important;
 }
+
+#upornot {
+	position: absolute !important;
+	clip: rect(73px,125px,95px,15px) !important;
+	display: inline;
+	margin-top: -72px;
+	margin-left: -5px;
+}
