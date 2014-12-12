@@ -103,7 +103,45 @@ body {
 	color: #ddd;
 }
 
+#slide {
+/*	float: right;*/
+	float: left;
+	margin-left: 460px;
+}
+
 #pic1 {
-	float: right;
+	position: absolute;
 	display: inline;
+/*	left: 0;*/
+}
+
+b {
+	font-weight: 900 !important;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.warn {
+	font-size: 20px !important;
+	color: darkred !important;
+	background-color: rgb(125, 125, 125);
+	padding: 20px !important;
+	padding-top: 12px !important;
+	margin-top: 15px;
+	padding-bottom: 12px !important;
+	margin-bottom: 15px !important;
+	border: 1px solid #111;
+}
+
+.footer {
+	margin-top: 95px;
+	margin-left: 5px !important;
+	padding-bottom: 3px !important;
+	padding-top: 0px !important;
+	color: #bbb !important;
+	text-decoration: none !important;
+}
+
+.footer:hover {
+	color: #ddd !important;
 }
